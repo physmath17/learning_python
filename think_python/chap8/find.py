@@ -1,11 +1,9 @@
-"""
-def find_branchless(word, letter) :
-    index = 0
-    while index < len(word) :
-        return index*(word[index] == letter)
-        index = index + 1
-    return -1
-"""
+# def find_branchless(word, letter) :
+#     index = 0
+#     while index < len(word) :
+#         return index*(word[index] == letter)
+#         index = index + 1
+#     return -1
 
 def find(word, letter) :
     """ takes a character letter and finds the index in word where that character appears """
